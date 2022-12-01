@@ -6,6 +6,16 @@ import UserController
     from "./controllers/users/users-controller.js"
 import TuitsController
     from "./controllers/tuits/tuits-controller.js";
+import mongoose from "mongoose";
+
+
+
+//mongoose.connect('mongodb://localhost:27017/tuiter');
+mongoose.connect('mongodb+srv://aishwaryakumara:Aishu%401234@cluster0.ni4k21e.mongodb.net/?retryWrites=true&w=majority');
+//const CONNECTION_STRING = process.env.DB_CONNECTION_STRING
+                          //|| 'mongodb://localhost:27017/tuiter'
+//mongoose.connect(CONNECTION_STRING);
+
 
 
 //const express = require('express')
